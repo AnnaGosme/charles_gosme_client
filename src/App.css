@@ -1,10 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+body {
+
+  background-image: ('./assets/coverPhoto.jpg');
+}
 
 .App {
   font-family: 'Roboto Mono', monospace;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+
+.nav {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  justify-content: flex-end;
+  width: 100%;
+  
+}
+.charles-gosme-title {
+  font-size: 2em;
+  justify-self: flex-start;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  justify-content: space-between;
+  justify-self: flex-end;
+}
+
+.page-links {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  justify-content: space-around;
+ 
+
+  font-size: 1em;
+}
+
+.social-links{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.add-track {
+  display: flex;
 }
 
 .input-form {
