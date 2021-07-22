@@ -41,5 +41,5 @@ Here is a list things you need in order to use the software and how to install t
   npm start
   ```
 4. Remember to launch the server-side !
-5. 
-6. Happy coding !
+ 
+5. Happy coding !
