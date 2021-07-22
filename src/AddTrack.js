@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Axios from "axios";
 
 export default function AddTrack({ title, setTitle, duration, setDuration, year, setYear,original, setOriginal, artist, setArtist, album, setAlbum, url, setUrl, order, setOrder, trackList, setTrackList}) {
@@ -14,13 +13,14 @@ export default function AddTrack({ title, setTitle, duration, setDuration, year,
           url: url,
           order: order,
         }).then(() => {
-          console.log("success posting");
+           window.location.reload(false);
         });
       };
 
     return (
         <div className="add-track">
             <div className="input-form">
+          <h2>Add a new track</h2>
           <label>Title</label>
           <input
             type="text"
@@ -78,7 +78,7 @@ export default function AddTrack({ title, setTitle, duration, setDuration, year,
               setUrl(e.target.value);
             }}
           />
-          <button onClick={addTrack}>Add track</button>
+          <button className="btn btn-mid" onClick={addTrack}>Add track</button>
         </div>
         </div>
     )

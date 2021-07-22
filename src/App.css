@@ -1,53 +1,93 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
-body {
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 
-  background-image: ('./assets/coverPhoto.jpg');
-}
+/* * {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+} */
 
 .App {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Montserrat", sans-serif;
+  color: #0b0b0b;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
+.home {
+  background-color: #1d1d1d;
+  background-image: url("./assets/home.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
-.nav {
-  margin: 10px;
-  display: flex;
-  flex-direction: row;
-  align-content: space-between;
-  justify-content: flex-end;
-  width: 100%;
-  
-}
-.charles-gosme-title {
-  font-size: 2em;
-  justify-self: flex-start;
-}
-
-.links {
-  display: flex;
-  flex-direction: row;
-  align-content: space-between;
-  justify-content: space-between;
-  justify-self: flex-end;
-}
-
-.page-links {
-  display: flex;
-  flex-direction: row;
-  align-content: space-between;
-  justify-content: space-around;
- 
-
-  font-size: 1em;
-}
-
-.social-links{
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+}
+
+.charles-gosme-title,
+h1 {
+  font-family: "Abril Fatface", cursive;
+  align-self: center;
+  color: white;
+  font-size: 3em;
+  margin-top: -16px;
+  margin-left: 5px;
+}
+
+.social-icon {
+  color: black;
+  padding: 5px;
+}
+.youtube {
+  margin-top: 149px;
+}
+
+.admin-cog {
+  color: #c4c4c4;
+  height: 30px;
+  width: 30px;
+ margin-left: 1350px;
+}
+
+.nav {
+  font-family: "Abril Fatface", cursive;
+  font-size: 1.2em;
+  margin-top: -72px;
+  margin-left: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.admin-page {
+  background-color: #080808;
+}
+
+.admin-title {
+  font-size: 3em;
+  align-self: center;
+  color: #c4c4c4
+}
+.admin-top {
+  display: flex;
+  flex-direction: row;
+}
+
+.admin-container {
+  /* margin-top: 10px;
+  width: 95%; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+
+.logo {
+  padding: 45px;
+  height: 50px;
+  width: 50px;
 }
 
 .add-track {
@@ -55,58 +95,182 @@ body {
 }
 
 .input-form {
-  font-family: 'Roboto Mono', monospace;
-  margin-top: 15px;
+  font-family: "Montserrat", sans-serif;
+  color: #c4c4c4;
+  margin: 41px;
+  border: 1px solid white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-radius: 39px;
+  width: 450px;
+  padding-bottom: 10px;
 }
 
 .input-form input {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Montserrat", sans-serif;
   width: 300px;
-  height: 50px;
+  height: 30px;
 }
 
-.input-form button {
-  font-family: 'Roboto Mono', monospace;
-  margin: 20px;
-  width: 200px;
-  height: 20px;
-  padding-bottom: 20px;
-}
-
-.input-form button:hover {
+.btn,
+input[type="submit"] {
   cursor: pointer;
+  border-radius: 39px;
+  text-decoration: none;
+  padding: 12px 18px;
+  font-size: 12px;
+  line-height: 19px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 3px;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-mid {
+  border-radius: 39px;
+  text-decoration: none;
+  padding: 14px 21px;
+  font-size: 13px;
+  line-height: 25px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 3px;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-big {
+  border-radius: 39px;
+  text-decoration: none;
+  /* padding: 18px 24px; */
+  font-size: 14px;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 3px;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn:hover,
+input[type="submit"]:hover {
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  color: white;
+}
+
+.btn:hover {
+  cursor: pointer;
+  border: solid 2px #c4c4c4;
+  background: #1f1f1f;
+  color: white;
+}
+
+.btn-dark {
+  border: solid 2px #fff;
+  background: #c4c4c4;
+  color: #0b0b0b !important;
+}
+.btn-mid:hover,
+input[type="submit"]:hover,
+.btn-dark.active {
+  border: solid 2px #c4c4c4;
+  background: #1f1f1f;
+  color: #fff;
+}
+
+.add-track {
+  margin-top: -25px;
+}
+
+.alltracks-btn-container {
+  size: 50%;
+  justify-content: center;
+  align-content: center;
+}
+
+.btn-alltracks {
+  align-self: flex-start;
+
 }
 
 .all-tracks {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Montserrat", sans-serif;
+  color: #0b0b0b;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  flex-direction: column;
-  width: 100%;
+  justify-content: center;
+  flex-direction: row;
+  border-radius: 39px;
+  background: #c4c4c4;
 }
 
 .track {
-  font-family: 'Roboto Mono', monospace;
-  width: auto;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  font-size: 12px;
+  width: 400px;
   height: auto;
-  border: 1px solid black;
+  border: 1px solid white;
   margin: 10px;
   display: flex;
+  border-radius: 39px;
   padding: 10px;
-  font-family: 'Courier New', Courier, monospace;
+}
+
+.video-responsive {
+  width: 300px;
 }
 
 .track-card-info {
-  font-family: 'Roboto Mono', monospace;
+  margin: 20px;
+  font-family: "Montserrat", sans-serif;
   display: flex;
   flex-direction: column;
 }
 
-.modify-track-info{
+.modify-track-info {
+  font-family: "Montserrat", sans-serif;
   display: flex;
   flex-direction: row;
+}
+
+.btn-delete-track {
+  padding: 25px;
+  border-radius: 60%;
+}
+.btn-delete-track:hover {
+  cursor: pointer;
+  color: white;
+  background-color: red;
+}
+
+.update-track-title-input {
+  padding: 15px;
+  margin-bottom: 5px;
+  width: 180px;
+}
+
+input {
+  border-radius: 19px;
+  margin-bottom: 5px;
 }
