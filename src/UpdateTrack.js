@@ -21,7 +21,8 @@ export default function UpdateTrack({
   setTrackList,
   newTitle,
   setNewTitle,
-}) {
+  value,
+  }) {
   const updateTrackTitle = (id) => {
     Axios.put(`http://localhost:5000/tracks/${id}`, {
       track_title: newTitle,
@@ -57,8 +58,7 @@ export default function UpdateTrack({
       <button
         className="btn"
         onClick={() => {
-          updateTrackTitle();
-          // (value.track_title);
+          updateTrackTitle(value.track_title);
         }}
       >
         Update track title

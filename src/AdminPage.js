@@ -16,11 +16,11 @@ export default function AdminPage({ title, setTitle, duration, setDuration, year
             </div>
         <div className="admin-container">
         <div>
-            <AddTrack title={title} setTitle={setTitle} duration={duration} setDuration={setDuration} year={year} setYear={setYear} original={original} setOriginal={setOriginal} artist={artist} setArtist={setArtist} album={album} setAlbum={setAlbum} url={url} setUrl={setUrl} order={order} setOrder={setOrder} trackList={trackList} setTrackList={setTrackList}/>
+            <AddTrack title={title} setTitle={setTitle} duration={duration} setDuration={setDuration} year={year} setYear={setYear} original={original} setOriginal={setOriginal} artist={artist} setArtist={setArtist} album={album} setAlbum={setAlbum} url={url} setUrl={setUrl} order={order} setOrder={setOrder} trackList={trackList} setTrackList={setTrackList} />
         
         </div>
         <div>
-            <ShowAllTracks title={title} setTitle={setTitle} duration={duration} setDuration={setDuration} year={year} setYear={setYear} original={original} setOriginal={setOriginal} artist={artist} setArtist={setArtist} album={album} setAlbum={setAlbum} url={url} setUrl={setUrl} order={order} setOrder={setOrder} trackList={trackList} setTrackList={setTrackList}/>
+            <ShowAllTracks title={title} setTitle={setTitle} duration={duration} setDuration={setDuration} year={year} setYear={setYear} original={original} setOriginal={setOriginal} artist={artist} setArtist={setArtist} album={album} setAlbum={setAlbum} url={url} setUrl={setUrl} order={order} setOrder={setOrder} trackList={trackList} setTrackList={setTrackList} newTitle={newTitle} setNewTitle={setNewTitle}/>
             </div>
         </div>
         </div>

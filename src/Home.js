@@ -1,4 +1,8 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
+// npm install --save-dev @iconify/react @iconify-icons/fa-solid
+import { Icon, InlineIcon } from '@iconify/react';
+import usersCog from '@iconify-icons/fa-solid/users-cog';
+
 
 import Nav from "./Nav"
 
@@ -12,7 +16,7 @@ export default function Home() {
             <Nav />
             </div>
             <div className="link">
-           <Link to="/tracks"><button className="btn btn-big admin-btn">Administrator's Page</button></Link> 
+           <Link to="/tracks"><Icon className="admin-cog" icon={usersCog} /> </Link> 
            </div>
         </div>
     )

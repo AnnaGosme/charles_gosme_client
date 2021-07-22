@@ -32,32 +32,43 @@ h1 {
   align-self: center;
   color: white;
   font-size: 3em;
-  margin-top: -18px;
+  margin-top: -16px;
   margin-left: 5px;
+}
+
+.social-icon {
+  color: black;
+  padding: 5px;
+}
+.youtube {
+  margin-top: 149px;
+}
+
+.admin-cog {
+  color: #c4c4c4;
+  height: 30px;
+  width: 30px;
+ margin-left: 1350px;
 }
 
 .nav {
   font-family: "Abril Fatface", cursive;
   font-size: 1.2em;
-  margin-top: -150px;
+  margin-top: -72px;
   margin-left: 25px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 }
 
+.admin-page {
+  background-color: #080808;
+}
+
 .admin-title {
   font-size: 3em;
   align-self: center;
-}
-
-.admin-btn {
-  margin-top: -100px;
-  margin-left: 1100px;
-}
-
-.admin-page {
-  background-color: #c4c4c4;
+  color: #c4c4c4
 }
 .admin-top {
   display: flex;
@@ -85,20 +96,22 @@ h1 {
 
 .input-form {
   font-family: "Montserrat", sans-serif;
-  color: #0b0b0b;
-  margin: 15px;
+  color: #c4c4c4;
+  margin: 41px;
   border: 1px solid white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border-radius: 39px;
+  width: 450px;
+  padding-bottom: 10px;
 }
 
 .input-form input {
   font-family: "Montserrat", sans-serif;
   width: 300px;
-  height: 50px;
+  height: 30px;
 }
 
 .btn,
@@ -184,6 +197,10 @@ input[type="submit"]:hover,
   color: #fff;
 }
 
+.add-track {
+  margin-top: -25px;
+}
+
 .alltracks-btn-container {
   size: 50%;
   justify-content: center;
@@ -191,8 +208,8 @@ input[type="submit"]:hover,
 }
 
 .btn-alltracks {
-  align-self: center;
-  margin-left: 700px;
+  align-self: flex-start;
+
 }
 
 .all-tracks {

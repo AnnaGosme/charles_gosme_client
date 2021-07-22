@@ -87,10 +87,13 @@ export default function ShowAllTracks({
                     setTrackList={setTrackList}
                     newTitle={newTitle}
                     setNewTitle={setNewTitle}
+                    value={value}
+                    newTitle={newTitle} setNewTitle={setNewTitle}
                   />
                   <DeleteTrack
                     trackList={trackList}
                     setTrackList={setTrackList}
+                    value={value}
                   />
                 </div>
               </div>

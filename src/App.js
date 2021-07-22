@@ -16,6 +16,7 @@ function App() {
   const [order, setOrder] = useState("");
 
   const [trackList, setTrackList] = useState([]);
+  const [newTitle, setNewTitle] = useState([]);
  
 
 
@@ -24,7 +25,7 @@ function App() {
       <div className="App">
         <Route exact path="/" component={Home} />
         <Route path="/tracks">
-          <AdminPage title={title} setTitle={setTitle} duration={duration} setDuration={setDuration} year={year} setYear={setYear} original={original} setOriginal={setOriginal} artist={artist} setArtist={setArtist} album={album} setAlbum={setAlbum} url={url} setUrl={setUrl} order={order} setOrder={setOrder} trackList={trackList} setTrackList={setTrackList}/>
+          <AdminPage title={title} setTitle={setTitle} duration={duration} setDuration={setDuration} year={year} setYear={setYear} original={original} setOriginal={setOriginal} artist={artist} setArtist={setArtist} album={album} setAlbum={setAlbum} url={url} setUrl={setUrl} order={order} setOrder={setOrder} trackList={trackList} setTrackList={setTrackList} newTitle={newTitle} setNewTitle={setNewTitle} />
         </Route>
         </div>
     </Router>
