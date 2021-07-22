@@ -36,4 +36,10 @@ Here is a list things you need in order to use the software and how to install t
    ```sh
    npm install
    ```
-3. Happy coding!
+3. Open the app in the browser at http://localhost:3000/
+  ```sh
+  npm start
+  ```
+4. Remember to launch the server-side !
+5. 
+6. Happy coding !
