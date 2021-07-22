@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import ShowAllTracks from "./ShowAllTracks";
 import AddTrack from "./AddTrack";
 
-import cello from "./assets/cello.png";
+import cello from "../assets/cello.png";
 
 export default function AdminPage({ title, setTitle, duration, setDuration, year, setYear,original, setOriginal, artist, setArtist, album, setAlbum, url, setUrl, order, setOrder, trackList, setTrackList, newTitle, setNewTitle }) {
     return (
