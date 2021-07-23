@@ -5,9 +5,12 @@ import cello from "../assets/cello.png";
 export default function Contact() {
   return (
     <div className="contact-page">
+      <div className="contact-page-container">
+        <img className="logo" src={cello} alt="return to home page" />
         <Link to="/">
-      <img className="rock-concert-img" src={Rock} height="50%" width="100%" />
+      <img className="rock-concert-img" src={Rock} alt="rock on" height="50%" width="100%" />
             </Link>
+            </div>
     </div>
   );
 }

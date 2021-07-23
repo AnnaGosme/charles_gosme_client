@@ -13,9 +13,9 @@ import Music from "./Music";
 import About from "./About";
 import Contact from "./Contact";
 
-export default function Nav() {
+export default function SmallNav() {
   return (
-    <div className="nav">
+    <div className="small-nav">
       <nav>
         <ul textDecoration='none'>
           <li>

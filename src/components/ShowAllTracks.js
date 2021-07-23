@@ -88,7 +88,7 @@ export default function ShowAllTracks({
                     newTitle={newTitle}
                     setNewTitle={setNewTitle}
                     value={value}
-                    newTitle={newTitle} setNewTitle={setNewTitle}
+                    
                   />
                   <DeleteTrack
                     trackList={trackList}
