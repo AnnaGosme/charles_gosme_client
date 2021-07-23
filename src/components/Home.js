@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 // npm install --save-dev @iconify/react @iconify-icons/fa-solid
-import { Icon, InlineIcon } from '@iconify/react';
+import { Icon } from '@iconify/react';
 import usersCog from '@iconify-icons/fa-solid/users-cog';
 
 
