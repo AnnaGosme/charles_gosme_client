@@ -15,9 +15,10 @@ export default function Music() {
             
             </div>
             </div>
-        <h3 className="music-page-text">Listen to my music on Spotify and buy it on iTunes by clicking on the iTunes and Spotify icons just below. You can also listen to my music directly on this page, by streaming the bandcamp tracks further below.</h3>
+        <h3 className="music-page-text">Listen to my music on Spotify and buy it on iTunes by clicking on the iTunes and Spotify icons just below. <br />
+        You can also listen to my music directly on this page, by streaming the bandcamp tracks further below.</h3>
       
-      {/* <iframe title="Edge of Chaos"
+      <iframe title="Edge of Chaos"
         className="bandcamp-player"
         src="https://bandcamp.com/EmbeddedPlayer/album=322914941/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
         seamless
@@ -25,7 +26,7 @@ export default function Music() {
         <a href="https://charlesgosme.bandcamp.com/album/edge-of-chaos-2">
           Edge of Chaos by Charles Gosme
         </a>
-      </iframe> */}
+      </iframe>
     </div>
   );
 }
