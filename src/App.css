@@ -126,6 +126,12 @@ li {
   align-self: center;
 }
 
+.music-page-text {
+  align-self: center;
+  width: 80%;
+  display: none;
+}
+
 .bandcamp-player {
   border: 0;
   width: 500px;
@@ -173,8 +179,8 @@ li {
   font-weight: 700;
   color: black;
   text-align: left;
-  width: 80%;
-  font-size: 2.75em;
+  width: 70%;
+  font-size: 1.2em;
   margin-top: -30px;
   padding-bottom: 360px;
   line-height: 60px;
@@ -339,15 +345,17 @@ input[type="submit"]:hover,
   justify-content: center;
   flex-direction: row;
   border-radius: 39px;
-  background: #c4c4c4;
+  padding: 5px;
+  margin: 5px;
 }
 
 .track {
   font-family: "Montserrat", sans-serif;
+  color: #c4c4c4;
   font-weight: 100;
   font-size: 12px;
   width: 400px;
-  height: auto;
+  height: 550px;
   border: 1px solid white;
   margin: 10px;
   display: flex;
